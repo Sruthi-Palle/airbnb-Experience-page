@@ -1,0 +1,14 @@
+.margin-card {
+  margin: 10px;
+}
+.card-image {
+  height: 450px;
+  width: 250px;
+}
+
+@media all and (min-width: 928px) {
+  .card-image {
+    height: 450px;
+    width: 400px;
+  }
+}
