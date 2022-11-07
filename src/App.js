@@ -23,7 +23,7 @@ const imageData = [
   {
     firstImage:
       "https://a0.muscache.com/im/pictures/90b29031-41b0-4cff-a05d-d199387d5c35.jpg?im_w=720",
-    firstHeading: "good work eniviroment",
+    firstHeading: "Good work environment",
     button: "show all",
   },
 ];
@@ -174,7 +174,7 @@ function App() {
     slidesToScroll: 1,
   };
   return (
-    <div>
+    <div style={{ marginLeft: "20px" }}>
       <Navbar />
       <h1>New this week</h1>
       <Slider {...settings2}>
